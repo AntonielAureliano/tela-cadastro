@@ -1,7 +1,7 @@
 import { Button, TextField } from "@mui/material";
 import React from "react";
 
-function DadosUsuario(aoEnviar) {
+function DadosUsuario({ aoEnviar }) {
   return (
     <form
       onSubmit={(event) => {
